@@ -22,7 +22,7 @@ This one I'm still working on. But praetorian will give you a 4 character hash, 
 
 Optional Step. (Actually just skip it. Anything in this paragraphy just skip completely. It's only here for documentation). 
 I initially used this but added it into the level4_simplified.py program:
-The wordlist generator to create the 3 tripple buzzwords can be found in the root directory of the repo. To run it use `python wordlist_generator.py > output_wordlist.txt` and make sure the file `wordlist1.txt` is in the same directory as the wordlist_generator. This will create a file about 3.2 GB large. Now I'm working on a way to shorten the hashing algorithm.
+The wordlist generator to create the 3 triple buzzwords can be found in the root directory of the repo. To run it use `python wordlist_generator.py > output_wordlist.txt` and make sure the file `wordlist1.txt` is in the same directory as the wordlist_generator. This will create a file about 3.2 GB large. Now I'm working on a way to shorten the hashing algorithm.
 
 Okay, so i've shortened the hashing algorithm and have uploaded my script in the root directory of the repo. It is called `level4_simplified.py`. Go into the script and change the name of the wordlist and the hash you are trying to achieve. Run it like this `python level4_simplified.py > possible_passwords.txt` because it will spit out tons of possible passwords. I have another script that will run this against the api once the possible_passwords list generates. Give it about an hour to churn out all the possible passwords.
 
