@@ -22,7 +22,9 @@ This one I'm still working on. But praetorian will give you a 4 character hash, 
 
 The wordlist generator to create the 3 tripple buzzwords can be found in the root directory of the repo. To run it use `python wordlist_generator.py > output_wordlist.txt` and make sure the file `wordlist1.txt` is in the same directory as the wordlist_generator. This will create a file about 3.2 GB large. Now I'm working on a way to shorten the hashing algorithm.
 
-Okay, so i've shortened the hashing algorithm and have uploaded my script in the root directory of the repo. It is called `level4_simplified.py`. Go into the script and change the name of the wordlist and the hash you are trying to achieve.
+Okay, so i've shortened the hashing algorithm and have uploaded my script in the root directory of the repo. It is called `level4_simplified.py`. Go into the script and change the name of the wordlist and the hash you are trying to achieve. Run it like this `python level4_simplified.py > possible_passwords.txt` because it will spit out tons of possible passwords. I have another script that will run this against the api once the possible_passwords list generates. Give it about an hour to churn out all the possible passwords.
+
+After you have your possible_passwords.txt file, run the crypto_submit.py file (change the name of the possible_passwords.txt file if it's different) and just let it run. After it's finished, try using postman to request level 5 or try to return the hash from level 4 by looking on praetorian's website on how to get the hash. If it doesn't return the hash, you may need to re-request level 4 and get a new hash to crack and try the processess again. I'm very close to submitting the passwords to the api and I will post again soon.
 
 ### Challenge 5:
 
