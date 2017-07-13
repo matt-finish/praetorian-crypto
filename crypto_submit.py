@@ -39,8 +39,9 @@ with open("possible_passwords.txt", "r") as wordlist:
 	for x in wordlist:
 		new_list.append(x.strip())
 
-	for x in new_list:
-		guess = x
+	for y in new_list:
+		print y
+		guess = y
 		h = solve(level, guess)
 
 
