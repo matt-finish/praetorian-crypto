@@ -5,7 +5,7 @@ except NameError: pass
 # Global values
 base = "http://crypto.praetorian.com/{}"
 # Insert the token here
-auth_token = {"Authorization":"JWT " + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1oYWxlczkxOTFAZ21haWwuY29tIiwidXNlcl9pZCI6NTY2LCJlbWFpbCI6Im1oYWxlczkxOTFAZ21haWwuY29tIiwiZXhwIjoxNTAwMDU4NTkxfQ.jLvrcyDZzV4LenG1b3ouSUJhin4h-Xnotzd11pv6MB8"}
+auth_token = {"Authorization":"JWT " + "insert_your_token_here"}
 
 # Fetch the challenge and hint for level n
 def fetch(n):
