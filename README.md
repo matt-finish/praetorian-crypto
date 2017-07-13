@@ -6,7 +6,7 @@ I used postman for all my challenges so far. Make sure to follow the instruction
 All passwords are in the triple buzzword format, each word starting with a capital and no spaces. Example: "SecretPasswordPizza"
 
 ### Challenge 0: 
-Freebie! Use the password 'password'
+Freebie! Use the password 'challenge' or 'password'. I can't remember which it was.
 
 ### Challenge 1: 
 This is a Caesar cipher. All the values (as of now) are shifted 3 units. Go here: https://www.xarg.org/tools/caesar-cipher/ and use 3 as the key. There is your password.
